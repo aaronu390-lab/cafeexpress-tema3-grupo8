@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="o_bOIBm20G9AG2mKc48d">
+    <mxGraphModel dx="1471" dy="1972" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1b2a3d;strokeColor=#5b9bd5;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=12;" value="Pantalla 0&lt;br&gt;Login / Registro" vertex="1">
+          <mxGeometry height="60" width="160" x="40" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1b2a3d;strokeColor=#5b9bd5;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=12;" value="Pantalla 1&lt;br&gt;Catálogo" vertex="1">
+          <mxGeometry height="60" width="160" x="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1b2a3d;strokeColor=#5b9bd5;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=12;" value="Pantalla 2&lt;br&gt;Carrito y Pago" vertex="1">
+          <mxGeometry height="60" width="160" x="600" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1b2a3d;strokeColor=#5b9bd5;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=12;" value="Pantalla 4&lt;br&gt;Confirmación de pago" vertex="1">
+          <mxGeometry height="60" width="180" x="900" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1b2a3d;strokeColor=#5b9bd5;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=12;" value="Pantalla 5&lt;br&gt;Historial de pedidos" vertex="1">
+          <mxGeometry height="60" width="180" x="600" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1b2a3d;strokeColor=#5b9bd5;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=12;" value="Pantalla 3&lt;br&gt;Seguimiento de Pedido" vertex="1">
+          <mxGeometry height="60" width="190" x="1230" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="n0" style="html=1;endArrow=block;strokeColor=#9fd6ff;fontColor=#ffffff;fontSize=11;labelBackgroundColor=none;" target="n1" value="ingresa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="n1" style="html=1;endArrow=block;strokeColor=#9fd6ff;fontColor=#ffffff;fontSize=11;labelBackgroundColor=none;" target="n2" value="ver carrito">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="n1" style="html=1;endArrow=block;strokeColor=#9fd6ff;fontColor=#ffffff;fontSize=11;labelBackgroundColor=none;" target="n5" value="mis pedidos">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="n2" style="html=1;endArrow=block;strokeColor=#9fd6ff;fontColor=#ffffff;fontSize=11;labelBackgroundColor=none;" target="n4" value="pago aprobado">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="n4" style="html=1;endArrow=block;strokeColor=#9fd6ff;fontColor=#ffffff;fontSize=11;labelBackgroundColor=none;" target="n3" value="ver estado">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="n5" style="html=1;endArrow=block;strokeColor=#9fd6ff;fontColor=#ffffff;fontSize=11;labelBackgroundColor=none;" target="n3" value="ver detalle">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="n3" style="html=1;endArrow=block;strokeColor=#9fd6ff;fontColor=#ffffff;fontSize=11;labelBackgroundColor=none;exitX=0.5;exitY=1;entryX=0.5;entryY=1;curved=1;" target="n1" value="seguir comprando">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1325" y="280" />
+              <mxPoint x="380" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="n2" style="html=1;endArrow=block;strokeColor=#9fd6ff;fontColor=#ffffff;fontSize=11;labelBackgroundColor=none;exitX=0.25;exitY=0;entryX=0.75;entryY=0;curved=1;" target="n2" value="pago rechazado&lt;br&gt;(reintentar)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="-20" />
+              <mxPoint x="720" y="-20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="n3" style="html=1;endArrow=block;strokeColor=#9fd6ff;fontColor=#ffffff;fontSize=11;labelBackgroundColor=none;exitX=0.25;exitY=0;entryX=0.75;entryY=0;curved=1;" target="n3" value="cancelar pedido&lt;br&gt;(si aplica)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1280" y="90" />
+              <mxPoint x="1380" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
