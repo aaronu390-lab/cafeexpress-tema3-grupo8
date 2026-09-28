@@ -24,11 +24,10 @@ el prototipado de pantallas del flujo de compra.
 cafeexpress-tema3-grupo8/
 ├── README.md
 ├── Tema3_GarciaAlexandra.pdf
-└── diagramas/
-    ├── 01-casos-de-uso.drawio
-    ├── 02-actividad-cu03-realizar-pedido.drawio
-    ├── 03-actividad-cu04-realizar-pago.drawio
-    └── 04-flujo-navegacion.drawio
+├── diagramas01-casos-de-uso.drawio
+├── diagramas02-actividad-cu03-realizar-pedido.drawio
+├── diagramas03-actividad-cu04-realizar-pago.drawio
+└── diagramas04-flujo-navegacion.drawio
 ```
 
 ## Matriz de trazabilidad
